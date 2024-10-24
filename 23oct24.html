@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background-image: url(backcard.webp);
+          color: blueviolet;
+    }
+    body img{
+        width: 200px;
+        height: 400px;
+    }
+    </style>
+</head>
+<body>
+ <img src="im1.avif"> <br>
+ <img src="im2.png"> <br>
+ <img src="im3.png"> <br>
+ <img src="im4.png"> <br>
+ <img src="im5.jfif"> <br>
+ <img src="im6.webp"> <br>
+ <img src="im7.jfif"> <br>
+ <img src="im8.jfif"> <br>
+</body>
+
+<script>
+let cards = ["im1.avif","im2.png","im3.png","im4.png","im5.jfif","im6.webp","im7.jfif","im8."]
+for(let i=0;i<8;i++){
+ document.write('<img src='+cards[i]+'>'+'<br>')
+}
+</script>
+
+</html>
